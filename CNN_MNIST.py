@@ -9,6 +9,7 @@ from sklearn.datasets import fetch_openml
 from sklearn.model_selection import train_test_split
 
 
+
 # Parse the Arguments
 ap = argparse.ArgumentParser()
 ap.add_argument("-s", "--save_model", type=int, default=-1)
