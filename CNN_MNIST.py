@@ -17,6 +17,8 @@ ap.add_argument("-l", "--load_model", type=int, default=-1)
 ap.add_argument("-w", "--save_weights", type=str)
 args = vars(ap.parse_args())
 
+
+
 # Read/Download MNIST Dataset
 print('Loading MNIST Dataset...')
 # dataset = fetch_mldata('MNIST Original')
