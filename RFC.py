@@ -34,9 +34,9 @@ img_test, labels_test = data.load_testing()
 test_img = np.array(img_test)
 test_labels = np.array(labels_test)
 
-
 #Features
 X = train_img
+
 
 #Labels
 y = train_labels
