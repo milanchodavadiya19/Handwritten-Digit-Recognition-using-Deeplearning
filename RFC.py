@@ -11,8 +11,6 @@ import matplotlib.pyplot as plt
 from matplotlib import style
 style.use('ggplot')
 
-
-
 old_stdout = sys.stdout
 log_file = open("summary.log","w")
 sys.stdout = log_file
